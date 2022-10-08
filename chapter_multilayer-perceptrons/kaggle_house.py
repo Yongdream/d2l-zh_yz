@@ -86,7 +86,7 @@ sns.pairplot(x_vars=['OverallQual','GrLivArea','YearBuilt','TotalBsmtSF'],
 plt.show()
 
 # %%
-#删除异常值
+#删除异常值1123
 train_data = train_data.drop(train_data[(train_data['OverallQual']<5) &
                                         (train_data['SalePrice']>200000)].index)
  
