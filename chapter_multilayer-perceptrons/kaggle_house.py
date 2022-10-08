@@ -79,7 +79,7 @@ plt.xticks(fontsize=20)
 plt.yticks(fontsize=20)
 
 # %%
-#异常值处理test
+#异常值处理test02
 figure=plt.figure()
 sns.pairplot(x_vars=['OverallQual','GrLivArea','YearBuilt','TotalBsmtSF'],
              y_vars=['SalePrice'],data=train_data,dropna=True)
